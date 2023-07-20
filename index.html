@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Game?</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="effect"></div>
+    <h2 class="subtittle">You're welcome for responding</h2>
+    <h1 class="tittle">Whats your favorite game?</h1>
+
+    <div class="container-forms">
+        <form action="">
+            <label for="nameInput"><h3 class="name">Name</h3></label>
+            <input type="text" id="nameipt" name="nameInput" placeholder="Enter with your name" required>
+            <label for="emailInput"><h3 class="email">Email</h3></label>
+            <input type="text" id="emailipt" name="emailInput" placeholder="Enter with your email" required>
+            <label for="ageInput"><h3 class="age">Age (Optional)</h3></label>
+            <input type="text" id="ageipt" name="ageInput" placeholder="Age">
+            <label for="gamepInput"><h3 class="gamep">What is your favorite game platform?</h3></label>
+            <select name="gamepInput" id="gameipt" required>
+                <option disabled selected value>Select your favorite game platform</option>
+                <option>PC</option>
+                <option>Console</option>
+                <option>Mobile</option>
+            </select>
+            <label for="favInput"><h3 class="fav">Whats your favorite game?</h3></label>
+            <input type="text" id="favipt" name="favInput" placeholder="Enter with your favorite game" required>
+            <textarea name="aboutInput" id="aboutipt" cols="30" rows="10" placeholder="Tell a little why of you like this game"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <br>
+</body>
+</html>
